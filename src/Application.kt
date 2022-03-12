@@ -1,8 +1,6 @@
 package com.example
 
-import io.ktor.application.*
-import io.ktor.response.*
-import io.ktor.request.*
+import io.ktor.server.application.*
 
 fun main(args: Array<String>): Unit = io.ktor.server.netty.EngineMain.main(args)
 
