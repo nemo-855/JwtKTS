@@ -25,6 +25,10 @@ sourceSets {
 repositories {
     mavenLocal()
     jcenter()
+    maven {
+        url 'https://repo.maven.apache.org/maven2'
+        name 'Maven Central'
+    }
 }
 
 dependencies {
